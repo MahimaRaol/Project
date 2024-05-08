@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght500display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --dark-blue: #0A1D3C;
+    --light-gray: #E5E5E5;
+    --white: #FFF;
+    --light-peach: #f3d197;
+    --dark-gray: #3E3F43;
+    --light-black: #1D1D1D;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* SECTION ONE */
+.section{
+    min-height: 10vh;
+    width: 100%;
+}
+nav{
+    width: 80%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+header{
+    width: 80%;
+    height: calc(100vh - 80vh);
+    display: flex;
+    color: #eeab38;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.navlinks{
+    display: flex;
+}
+.logo{
+    font-size: 3.3rem;
+    color: var(--dark-blue);
+    font-family: 'Allison', cursive;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    margin-left: 2.5rem;
+    color: var(--dark-gray);
+    font-size: 1rem;
+    letter-spacing: .03rem;
+    position: relative;
+}
+.header-heading{
+    font-size: 5rem;
+    position: relative;
+}
+.header-heading::before{
+    position: absolute;
+    top: -80px;
+    color: var(--dark-blue);
+    font-family: 'Allison', cursive;
+    font-size: 5rem;
+}
+.product-name{
+    font-size: 1.7rem;
+}
+
+.navlinks li a::after, .navlinks li .active::after{
+    content: "";
+    background: var(--dark-gray);
+    position: absolute;
+    height: .15rem;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform .5s ease;
+    transform-origin: right;
+}
+.navlinks li a:hover:after, .navlinks li .active::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.line{
+    background: var(--dark-gray);
+    width: 2.5rem;
+    height: .2rem;
+    margin: .3rem;
+}
+.hamburger{
+    cursor: pointer;
+    display: none;
+}
+
+/* ---Section-Two--- */
+
+.section-two{
+    display: block;
+    align-items: center;
+}
+.section-two-container{
+    background: var(--light-peach);
+    width: 100%;
+    height: 50vh;
+    margin: 200px 0;
+    /* padding:  0; */
+    transform: skewY(-6deg);
+}
+.section-two-image{
+    width: 28rem;
+}
+.section-two-inner-container{
+    transform: skewY(6deg);
+    width: 80%;
+    margin: auto ;
+}
+.section-two-container, .section-two-inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-two-heading{
+    color: var(--dark-gray);
+    font-size: 4rem;
+}
+.section-two-para{
+    font-size: 1rem;
+    color: var(--dark-gray);
+    line-height: 1.8rem;
+    max-width: 80%;
+}
+.section-two-pricing{
+    font-size: 1.6rem;
+    color: var(--dark-gray);
+    margin: .9rem 0;
+}
+.section-two-btn{
+    padding: .9rem 1.7rem;
+    border: .1rem solid var(--light-black);
+    font-size: 1.1rem;
+    background: transparent;
+    transition: transform .5s;
+}
+
+/* ---Footer--- */
+
+footer{
+    background: var(--light-black);
+    height: 20vh;
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-txt{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+/* ---Media Queries--- */
+
+@media screen and (max-width: 600px){
+
+    /* ---section-one--- */
+   
+    .navlinks{
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        background: var(--light-gray);
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        right: 100%;
+        z-index: 2;
+        gap: 2rem;
+        transition: .5s ease-in-out;
+    }
+    .navlinks li a{
+        font-size: 1.3rem;
+        margin-left: 0;
+    }
+    .navlinks-active{
+        right: 0;
+    }
+    .hamburger{
+        display: block;
+        z-index: 5;
+    }
+    .section .logo{
+        z-index: 5;
+    }
+    .header-heading{
+        font-size: 2rem;
+    }
+    .product-name{
+        font-size: 2rem;
+    }
+
+
+    /* ---section-two--- */
+
+    .section-two-image{
+        width: 10rem;
+    }
+    .section-two-heading{
+        font-size: 2.9rem;
+    }
+    .section-two-para{
+        font-size: .93rem;
+        max-width: 100%;
+    }
+    .section-two-pricing{
+        font-size: 1.4rem;
+    }
+    .section-two-btn{
+        font-size: 1rem;
+        padding: .7rem 1rem;
+    }
+    .section-two-container{
+        height: 60vh;
+    }
+    .section-two-inner-container{
+        width: 90%;
+    }
+}
