@@ -1,0 +1,294 @@
+{
+  "traveller": [
+    {
+      "id": "1734264866705",
+      "first_name": "Rajdeepsingh",
+      "last_name": "Solanki",
+      "email": "Rajdeep@gmail.com",
+      "password": "Raj@123456",
+      "phone_number": "2222222222",
+      "date_of_birth": "1991-11-05",
+      "gender": "Male",
+      "profile_picture": "https://flux-image.com/_next/image?url=https%3A%2F%2Fai.flux-image.com%2Fflux%2Fc3f30432-f6ad-44e6-9952-99e3b79d0e24.jpg&w=3840&q=75",
+      "emergency_contact": "1234554321",
+      "address": "Meerpur ,Sirohi, Rajasthan",
+      "status": "Unblock"
+    },
+    {
+      "id": "1734272999220",
+      "first_name": "Tanishka",
+      "last_name": "Solanki",
+      "email": "Tansu2022@gmail.com",
+      "password": "Tanishka@2022",
+      "phone_number": "1234567890",
+      "date_of_birth": "2022-12-20",
+      "gender": "Female",
+      "profile_picture": "https://img.lovepik.com/free-png/20220127/lovepik-female-avatar-elements-of-womens-day-png-image_401901116_wh1200.png",
+      "emergency_contact": "1234554321",
+      "address": "Meerpur",
+      "status": "Unblock"
+    },
+    {
+      "id": "1734279506205",
+      "first_name": "Mahima",
+      "last_name": "Raol",
+      "email": "mahima29@gmail.com",
+      "password": "Mahima@1234",
+      "phone_number": "9979444455",
+      "date_of_birth": "1997-09-29",
+      "gender": "Female",
+      "profile_picture": "https://static.vecteezy.com/system/resources/previews/004/899/833/non_2x/beautiful-girl-with-blue-hair-avatar-of-woman-for-social-network-vector.jpg",
+      "emergency_contact": "9999999999",
+      "address": "Ahmedabad",
+      "status": "Unblock"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "'superadmin'",
+      "phone_number": "1234567890",
+      "profile_picture": "https://via.placeholder.com/600/92c952",
+      "status": "active"
+    }
+  ],
+  "travel-agent": [
+    {
+      "id": "1735884674005",
+      "first_name": "Delsina",
+      "last_name": "Vaghela",
+      "email": "delcy@gmail.com",
+      "phone_number": "9979442369",
+      "dest_id": "1735029953069",
+      "destination_name": "Himachal Pradesh",
+      "address": "Mehmdabad",
+      "role": "Travel Agent",
+      "agency_name": "Delcy Travells",
+      "profile_picture": "https://png.pngtree.com/png-clipart/20190516/original/pngtree-cute-girl-avatar-material-png-image_4023832.jpg",
+      "assigned_customers": "20",
+      "total_bookings": "45",
+      "status": "Active"
+    },
+    {
+      "id": "1735885195703",
+      "first_name": "Sanyam",
+      "last_name": "Jain",
+      "email": "Sanyam123@gmail.com",
+      "phone_number": "6666666666",
+      "dest_id": "1735878691956",
+      "destination_name": "Goa",
+      "address": "asdfghjkl",
+      "role": "Travel Agent",
+      "agency_name": "Sanyam tours and travel agency",
+      "profile_picture": "https://i.pinimg.com/originals/c0/4b/01/c04b017b6b9d1c189e15e6559aeb3ca8.png",
+      "assigned_customers": "33",
+      "total_bookings": "77",
+      "status": "Active"
+    },
+    {
+      "id": "1735885257743",
+      "first_name": "Parth",
+      "last_name": "Patel",
+      "email": "parth456@gmail.co",
+      "phone_number": "1234509876",
+      "dest_id": "1735878843059",
+      "destination_name": "Ujjain",
+      "address": "qwertyuiop",
+      "role": "Travel Agent",
+      "agency_name": "Parth Tours",
+      "profile_picture": "https://img.freepik.com/free-vector/portrait-boy-with-orange-hair-blue-eyes_1308-153259.jpg",
+      "assigned_customers": "40",
+      "total_bookings": "60",
+      "status": "Active"
+    },
+    {
+      "id": "1735885533148",
+      "first_name": "Kushi",
+      "last_name": "Shah",
+      "email": "khushi909@gmail.com",
+      "phone_number": "1234567758",
+      "dest_id": "1735878889464",
+      "destination_name": "kutch",
+      "address": "lkjhgfdsa",
+      "role": "Travel Agent",
+      "agency_name": "Khushi Travels",
+      "profile_picture": "https://marketplace.canva.com/EAFltPVX5QA/1/0/1600w/canva-cute-cartoon-anime-girl-avatar-ZHBl2NicxII.jpg",
+      "assigned_customers": "20",
+      "total_bookings": "34",
+      "status": "Active"
+    }
+  ],
+  "package": [
+    {
+      "id": "1735887215549",
+      "trevel_agent_id": "1735884674005",
+      "package_name": "Himachal Pradesh",
+      "destination": "Shimla ",
+      "duration_days": "10",
+      "price_per_person": "30000",
+      "start_date": "2025-01-05",
+      "end_date": "2025-01-15",
+      "description": "Shimla is the capital and the largest city of the northern Indian state of Himachal Pradesh.",
+      "inclusions": "Dinner",
+      "exclusions": "",
+      "available_seats": 44,
+      "package_img": "https://subinsholiday.com/images/shimla-tour-detail-slider-one.jpg",
+      "status": ""
+    },
+    {
+      "id": "1735887715126",
+      "trevel_agent_id": "1735885195703",
+      "package_name": "Goa Tour",
+      "destination": "Goa",
+      "duration_days": "12",
+      "price_per_person": "15000",
+      "start_date": "2025-01-04",
+      "end_date": "2025-01-16",
+      "description": "Goa is a perfect vacation choice for travelers looking to experience the vibrant culture, beautiful beaches, and delicious cuisine of this Indian coastal state.",
+      "inclusions": "Meals",
+      "exclusions": "Airfare",
+      "available_seats": 29,
+      "package_img": "https://res.cloudinary.com/travools1/image/upload/v1692443648/i0ewifp6yzb5xag8w3tb.jpg",
+      "status": "Active"
+    },
+    {
+      "id": "1735887910771",
+      "trevel_agent_id": "1735885257743",
+      "package_name": "Ujjain Tour",
+      "destination": "Ujjain",
+      "duration_days": "5",
+      "price_per_person": "7000",
+      "start_date": "2025-01-07",
+      "end_date": "2025-01-12",
+      "description": "Discover the Mahakaleshwar Jyotirlinga temple on the banks of the Kshipra river on this 2-day tour from Indore or Ujjain.",
+      "inclusions": "Tours",
+      "exclusions": "Visa fees",
+      "available_seats": 28,
+      "package_img": "https://cdn.getyourguide.com/img/tour/d9827e544e3c76c7dac3f72bb4c23a6cce712d30ad139401e5d4f52398ab14d6.png/97.jpg",
+      "status": "Active"
+    },
+    {
+      "id": "1735888097722",
+      "trevel_agent_id": "1735885533148",
+      "package_name": "Kutch Tour",
+      "destination": "Kutch",
+      "duration_days": "9",
+      "price_per_person": "20000",
+      "start_date": "2025-01-15",
+      "end_date": "2025-01-24",
+      "description": "Rann means Desert and hence it is ‘Desert’ of Kutch.",
+      "inclusions": "Tours",
+      "exclusions": "Visa fees",
+      "available_seats": "39",
+      "package_img": "https://compassndiaries.wordpress.com/wp-content/uploads/2022/02/dsc2339-01w.jpeg?w=1400",
+      "status": "Active"
+    }
+  ],
+  "booking": [
+    {
+      "id": "c2fe",
+      "traveller_id": "1734264866705",
+      "traveller_name": "Rajdeepsingh Solanki",
+      "travel_agent_id": "1735885195703",
+      "travel_agent_name": "Sanyam Jain",
+      "package_id": "1735887715126",
+      "package_name": "Goa Tour",
+      "package_img": "https://res.cloudinary.com/travools1/image/upload/v1692443648/i0ewifp6yzb5xag8w3tb.jpg",
+      "travel_date_start": "2025-01-04",
+      "travel_date_end": "2025-01-16",
+      "total_price": 45000,
+      "payment_status": "Confirmed payment via Bank Transfer",
+      "booking_status": "Confirmed",
+      "number_of_travelers": 3,
+      "inclusions": "Meals"
+    },
+    {
+      "id": "a50b",
+      "traveller_id": "1734279506205",
+      "traveller_name": "Mahima Raol",
+      "travel_agent_id": "1735885195703",
+      "travel_agent_name": "Sanyam Jain",
+      "package_id": "1735887715126",
+      "package_name": "Goa Tour",
+      "package_img": "https://res.cloudinary.com/travools1/image/upload/v1692443648/i0ewifp6yzb5xag8w3tb.jpg",
+      "travel_date_start": "2025-01-04",
+      "travel_date_end": "2025-01-16",
+      "total_price": "15000",
+      "payment_status": "Confirmed payment via Debit Card",
+      "booking_status": "Confirmed",
+      "number_of_travelers": 1,
+      "inclusions": "Meals"
+    }
+  ],
+  "payment": [
+    {
+      "id": "5cf0",
+      "booking_id": "a50b",
+      "traveller_id": "1734279506205",
+      "payment_method": "Debit Card",
+      "payment_status": "Confirmed payment via Debit Card",
+      "amount": "15000"
+    },
+    {
+      "id": "6e97",
+      "booking_id": "c2fe",
+      "traveller_id": "1734264866705",
+      "payment_method": "Bank Transfer",
+      "payment_status": "Confirmed payment via Bank Transfer",
+      "amount": 15000
+    }
+  ],
+  "destination": [
+    {
+      "id": "1735029953069",
+      "destination_name": "Himachal Pradesh",
+      "dest_img": "https://wallpapers.com/images/hd/himalaya-pictures-fu8panda9oae4inq.jpg"
+    },
+    {
+      "id": "1735030141380",
+      "destination_name": "Manali",
+      "dest_img": "https://www.honeymoonpackagesmanali.org/uploads/8/2/6/1/8261259/p179.png"
+    },
+    {
+      "id": "1735878691956",
+      "destination_name": "Goa",
+      "dest_img": "https://res.cloudinary.com/travools1/image/upload/v1692443648/i0ewifp6yzb5xag8w3tb.jpg"
+    },
+    {
+      "id": "1735878843059",
+      "destination_name": "Ujjain",
+      "dest_img": "https://cdn.getyourguide.com/img/tour/d9827e544e3c76c7dac3f72bb4c23a6cce712d30ad139401e5d4f52398ab14d6.png/97.jpg"
+    },
+    {
+      "id": "1735878889464",
+      "destination_name": "kutch",
+      "dest_img": "https://i.ytimg.com/vi/ZiRLz9s669I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCeuJX1vpIH6J8DZt4TcmlsOiokLg"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1734165324608",
+      "name": "Rahul",
+      "email": "rahul12@gmail.com",
+      "sub": "Booking",
+      "msg": "Booking is good"
+    },
+    {
+      "id": "1734166747725",
+      "name": "Khushi",
+      "email": "khushi@gmail.com",
+      "sub": "Package",
+      "msg": "Package is Awsome"
+    },
+    {
+      "id": "1734410149672",
+      "name": "Jiya",
+      "email": "jiya@789",
+      "sub": "xyz",
+      "msg": "sjdcvnbehfsxyugibkjgr"
+    }
+  ]
+}
